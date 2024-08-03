@@ -20,7 +20,7 @@
         </div>
 
         <div class="text-center">
-            <img src="assets/images/404.png" class="mb-4" alt="<?php echo WPLEARN_ASSETS_DIR . 'We Learn Error Page' ?>">
+            <img src="<?php echo get_template_directory_uri() . '/assets/images/404.png' ?>" class="mb-4" alt="We Learn Error Page">
             <h3 class="fs-24 fw-semibold mb-1">Page Not Found</h3>
             <p class="mb-4">But no worries! Our team is looking ever where while you wait safely.</p>
             <a href="index.html" class="btn btn-primary py-2 px-4 text-decoration-none text-white">Back To

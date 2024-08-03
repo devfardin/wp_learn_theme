@@ -15,9 +15,7 @@
         <?php wp_head(); ?>
     </head>
     <body>
-        <header>
-            <h2>
-                Header
-            </h2>
+        <header class="container">
+           <?php get_template_part('template-parts/navbar') ?>
         </header>
 
